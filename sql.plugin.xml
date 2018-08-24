@@ -1,0 +1,31 @@
+<application>
+  <component name="SQLPlugin.Configuration">
+    <general confirmCommit="false" confirmRollback="false" confirmClose="false" savePasswords="false" encodePasswords="false" keepConnectionsOpen="false" />
+    <export />
+    <html table="border: 1px solid black; border-spacing:0px" cell="border: 1px solid black" header="background: darkgrey; font-weight:bold; text-align: center" row1="background: white" row2="background: lightgrey" alternate="true" interval="1" includeQuery="true" />
+    <csv delimiter="," text="&quot;" forceQualifier="false" />
+    <drivers />
+    <databases>
+      <database name="MSSQL" driver="jdbc:microsoft:sqlserver" user="smsadm" autocommit="true" port="1433" db="SMEE_BookingManagement_Dummy" host="192.168.10.254" selectmethod="cursor" current="true" />
+    </databases>
+    <queries projectClassLoader="false" save="false" stopOnError="false" />
+    <results primaryKeyCols="true" primaryKeyColor="-6908186" foreignKeyColor="-6887786" loadLOBs="false" saveTableConfig="false" nullString="" useAlternateRowColors="false" alternateRowBackground="-1310741" alternateRowForeground="-16777216" showGrid="false">
+      <defaultFormat class="java.util.Date" format="Default" />
+      <defaultFormat class="java.lang.Boolean" format="Default" />
+      <defaultFormat class="java.lang.String" format="Default" />
+      <defaultFormat class="java.lang.Number" format="Default" />
+      <rowLimit enabled="true" value="1000" />
+      <resizeColumns toHeader="true" toContent="true" />
+    </results>
+    <tables>
+      <table id="connectionProperties">
+        <property id="value.width" value="271" />
+        <property id="property.width" value="271" />
+      </table>
+      <table id="customConnectionProperties">
+        <property id="value.width" value="271" />
+        <property id="key.width" value="271" />
+      </table>
+    </tables>
+  </component>
+</application>
