@@ -6,9 +6,9 @@
     <csv delimiter="," text="&quot;" forceQualifier="false" />
     <drivers />
     <databases>
-      <database name="MSSQL" driver="jdbc:microsoft:sqlserver" user="smsadm" autocommit="true" port="1433" db="SMEE_BookingManagement_Dummy" host="192.168.10.254" selectmethod="cursor" current="true" />
+      <database name="MSSQL" driver="jdbc:sqlserver" databaseName="SMEE_BookingManagement_Dummy" user="smsadm" autocommit="true" port="1433" db="SMEE_BookingManagement_Dummy" host="192.168.10.254" selectmethod="cursor" current="true" />
     </databases>
-    <queries projectClassLoader="false" save="false" stopOnError="false" />
+    <queries partialExecute="true" projectClassLoader="false" save="false" stopOnError="false" />
     <results primaryKeyCols="true" primaryKeyColor="-6908186" foreignKeyColor="-6887786" loadLOBs="false" saveTableConfig="false" nullString="" useAlternateRowColors="false" alternateRowBackground="-1310741" alternateRowForeground="-16777216" showGrid="false">
       <defaultFormat class="java.util.Date" format="Default" />
       <defaultFormat class="java.lang.Boolean" format="Default" />
@@ -19,12 +19,12 @@
     </results>
     <tables>
       <table id="connectionProperties">
-        <property id="value.width" value="271" />
-        <property id="property.width" value="271" />
+        <property id="value.width" value="246" />
+        <property id="property.width" value="246" />
       </table>
       <table id="customConnectionProperties">
-        <property id="value.width" value="271" />
-        <property id="key.width" value="271" />
+        <property id="value.width" value="246" />
+        <property id="key.width" value="246" />
       </table>
     </tables>
   </component>
